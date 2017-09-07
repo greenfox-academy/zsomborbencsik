@@ -1,0 +1,24 @@
+h1 {
+    color: #FF6853;
+}
+
+h2 {
+    color: #8625E1;
+}
+
+div {
+    margin-left: 20px;
+}
+
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    color: #F65E79;
+}
+
+ol li:last-child {
+    color: black;
+    text-decoration: underline;
+
+
