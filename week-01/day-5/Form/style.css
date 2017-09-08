@@ -8,14 +8,14 @@ main {
     width: 620px;
     height: 780px;
     box-sizing: border-box;
-    background-color: green;
+    background-color: #C3C3C3;
     margin: 0 auto;
 
 }
 
 article {
-        border: 14px solid red;
-        background-color: yellow;
+        border: 14px solid transparent;
+
         box-sizing: border-box;
         float: left;
     }
@@ -31,27 +31,39 @@ article {
 }
 
 
+
+
 .box2, .box3 {
     display: inline-block;
     width: 310px;
     height: 410px;
     margin: 0 0 16px 0;
 }
-.box2 div:first-child , .box3 div:first-child {
+.box2 div, .box3 div {
     width: 282px;
     height: 40px;
     background-color: #A9A9A9;
     border-radius: 5px;  
 }
 
-.box2 div, .box3 div {
+.box2 *:not(span), .box3 *:not(span) {
     display: block;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: bold; 
+}
+
+
+.box2 > div, .box3 > div {
+    margin: 0;
 }
 
 .box2 span, .box3 span {
     color: white;
     line-height: 40px;
     padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 
