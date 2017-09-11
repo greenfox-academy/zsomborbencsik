@@ -7,10 +7,5 @@ public class MileToKmConverter {
         int user_input = scan.nextInt();
 
         System.out.println(user_input * 1.609344);
-
-
-
-        // Write a program that asks for an integer that is a distance in kilometers,
-        // then it converts that value to miles and prints it
     }
 }
