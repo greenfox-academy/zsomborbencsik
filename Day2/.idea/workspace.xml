@@ -77,11 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumElements.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SumElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SumElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="196">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChengeElements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ChengeElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/Third.java" />
         <option value="$PROJECT_DIR$/src/CompareLength.java" />
         <option value="$PROJECT_DIR$/src/SumElements.java" />
+        <option value="$PROJECT_DIR$/src/ChengeElements.java" />
       </list>
     </option>
   </component>
@@ -177,10 +188,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumElements">
-    <configuration name="CompareLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ChengeElements">
+    <configuration name="ChengeElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CompareLength" />
+      <option name="MAIN_CLASS_NAME" value="ChengeElements" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -192,9 +203,9 @@
       <module name="Day2" />
       <envs />
     </configuration>
-    <configuration name="Factorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Factorio" />
+      <option name="MAIN_CLASS_NAME" value="CompareLength" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,19 +341,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Factorio" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Printer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Third" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CompareLength" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SumElements" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Printer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Third" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CompareLength" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SumElements" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ChengeElements" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SumElements" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CompareLength" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Third" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Printer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Factorio" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ChengeElements" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SumElements" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CompareLength" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Third" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Printer" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +368,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505217941833</updated>
       <workItem from="1505217945354" duration="222000" />
-      <workItem from="1505218199570" duration="6423000" />
+      <workItem from="1505218199570" duration="6640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6645000" />
+    <option name="totallyTimeSpent" value="6862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -492,8 +503,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SumElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChengeElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
