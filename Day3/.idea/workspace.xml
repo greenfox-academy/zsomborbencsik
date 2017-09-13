@@ -25,8 +25,8 @@
       <file leaf-file-name="UrlFixer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UrlFixer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="84">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -247,12 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505293166487</updated>
       <workItem from="1505293169992" duration="450000" />
-      <workItem from="1505293713851" duration="744000" />
+      <workItem from="1505293713851" duration="790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1194000" />
+    <option name="totallyTimeSpent" value="1240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -316,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UrlFixer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="84">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
