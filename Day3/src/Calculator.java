@@ -6,12 +6,13 @@ public class Calculator {
         String operator;
 
         Scanner scan = new Scanner(System.in);
-        
 
         log("Please type in the expression: ");
+
         operator = scan.next();
         a = scan.nextInt();
         b = scan.nextInt();
+
         if (operator.contains("+")) {
             answer = a + b;
             log(""+answer);
