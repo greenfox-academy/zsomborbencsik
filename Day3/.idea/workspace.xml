@@ -52,20 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchMaking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MatchMaking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#139#147#0" expanded="true" />
-                <element signature="e#247#255#0" expanded="true" />
-                <element signature="e#361#369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppendLetter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppendLetter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,13 +101,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuoteSwap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuoteSwap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuoteSwap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="112">
+              <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
               <folding>
                 <element signature="e#136#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/ElementFinder.java" />
         <option value="$PROJECT_DIR$/src/InList.java" />
         <option value="$PROJECT_DIR$/src/QuoteSwap.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
       </list>
     </option>
   </component>
@@ -226,10 +226,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuoteSwap">
-    <configuration name="AppendLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="AppendLetter" />
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -379,19 +379,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AppendLetter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CandyShop" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ElementFinder" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.QuoteSwap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CandyShop" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ElementFinder" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QuoteSwap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QuoteSwap" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ElementFinder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CandyShop" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AppendLetter" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QuoteSwap" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ElementFinder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CandyShop" />
       </list>
     </recent_temporary>
   </component>
@@ -406,12 +406,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505293166487</updated>
       <workItem from="1505293169992" duration="450000" />
-      <workItem from="1505293713851" duration="12216000" />
+      <workItem from="1505293713851" duration="14770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12666000" />
+    <option name="totallyTimeSpent" value="15220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -578,10 +578,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuoteSwap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="112">
+          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
           <folding>
             <element signature="e#136#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
           </folding>
         </state>
       </provider>
