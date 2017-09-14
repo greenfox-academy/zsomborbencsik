@@ -1,8 +1,15 @@
 public class CreateEven {
     public static void main(String[] args) {
 
+        int even = 0;
+
         for (int i = 0; i < 500; i++)
-            if ((i / 2))
+            if ((i % 2) == 0) {
+
+                System.out.println(i);
+            }
+
+
     }
 }
 
