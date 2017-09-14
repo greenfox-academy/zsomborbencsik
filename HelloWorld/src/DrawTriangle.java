@@ -5,16 +5,20 @@ public class DrawTriangle {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int user_input = myScanner.nextInt();
-        String repeated = "*";
         String star = "*";
+        String repeated = "*";
 
 
-        for (int i = 1; i < user_input+1; i++) {
-            repeated = new String(new char[i]).replace("\0", star);
+        for (int i =0; i < user_input; i++) {
+            for (int j = 0; j <= i ; j++) {
+                System.out.print("*");
+            }
 
 
 
-            System.out.println(repeated);
+
+
+            System.out.println();
 
         }
 
