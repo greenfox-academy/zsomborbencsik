@@ -61,7 +61,7 @@
       <file leaf-file-name="WriteMultipleLines.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
+            <state relative-caret-position="223">
               <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +73,8 @@
       <file leaf-file-name="CopyFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="419">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +85,8 @@
       <file leaf-file-name="Doubled.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Doubled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="25" column="101" lean-forward="false" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+            <state relative-caret-position="195">
+              <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#806#814#0" expanded="true" />
@@ -95,11 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reversed.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reversed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reversed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="504">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReversedOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReversedOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/CopyFile.java" />
         <option value="$PROJECT_DIR$/src/Doubled.java" />
         <option value="$PROJECT_DIR$/src/Reversed.java" />
+        <option value="$PROJECT_DIR$/src/ReversedOrder.java" />
       </list>
     </option>
   </component>
@@ -201,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reversed">
+  <component name="RunManager" selected="Application.ReversedOrder">
     <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CopyFile" />
@@ -244,9 +257,9 @@
       <module name="day-2" />
       <envs />
     </configuration>
-    <configuration name="WriteMultipleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReversedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WriteMultipleLines" />
+      <option name="MAIN_CLASS_NAME" value="ReversedOrder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -258,9 +271,9 @@
       <module name="day-2" />
       <envs />
     </configuration>
-    <configuration name="WriteSingleLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="WriteMultipleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WriteSingleLine" />
+      <option name="MAIN_CLASS_NAME" value="WriteMultipleLines" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -354,19 +367,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WriteSingleLine" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WriteMultipleLines" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CopyFile" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Doubled" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Reversed" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WriteMultipleLines" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CopyFile" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Doubled" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Reversed" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReversedOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Reversed" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Doubled" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CopyFile" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WriteMultipleLines" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WriteSingleLine" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReversedOrder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Reversed" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Doubled" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CopyFile" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WriteMultipleLines" />
       </list>
     </recent_temporary>
   </component>
@@ -383,12 +396,12 @@
       <workItem from="1505812006125" duration="12985000" />
       <workItem from="1505829186192" duration="1085000" />
       <workItem from="1505830304495" duration="91000" />
-      <workItem from="1505830497896" duration="1361000" />
+      <workItem from="1505830497896" duration="2765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15522000" />
+    <option name="totallyTimeSpent" value="16926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -672,26 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -730,10 +723,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Doubled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="101" lean-forward="false" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+        <state relative-caret-position="195">
+          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#806#814#0" expanded="true" />
@@ -743,8 +756,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reversed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="504">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReversedOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
