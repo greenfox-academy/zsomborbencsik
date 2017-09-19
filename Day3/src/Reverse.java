@@ -4,12 +4,12 @@ public class Reverse {
         // Create a function that can reverse a String, which is passed as the parameter
         // Use it on this reversed string to check it!
         // Try to solve this using charAt() first, and optionally anything else after.
-        System.out.println(reversed);
 
 
         for(int i = reversed.length()-1; i >= 0; i--){
             reversed = String.valueOf(reversed.charAt(i));
         }
+        System.out.println(reversed);
 
 
     }
