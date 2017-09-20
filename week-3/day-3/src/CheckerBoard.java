@@ -31,11 +31,7 @@ public class CheckerBoard {
             xPosition += size;
             }
             yPosition += size;
-
         }
-
-
-
     }
 
     //    Don't touch the code below
