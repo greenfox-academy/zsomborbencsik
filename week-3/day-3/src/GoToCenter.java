@@ -1,20 +1,37 @@
 import javax.swing.*;
 
 import java.awt.*;
+import java.util.Scanner;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Diagonals {
+public class GoToCenter {
 
     public static void mainDraw(Graphics graphics){
-        graphics.setColor(Color.GREEN);
-        graphics.drawLine(0,0,320,320);
-        graphics.drawLine(0,320,320,0);
-        // draw the canvas' diagonals in green.
+        Scanner myScan = new Scanner(System.in);
+        System.out.print("Enter coordinates: ");
+        int x = myScan.nextInt();
+        int y = myScan.nextInt();
+        drawer(graphics,x,y);
+        System.out.print("Enter coordinates: ");
+        x = myScan.nextInt();
+        y = myScan.nextInt();
+        drawer(graphics,x,y);
+        System.out.print("Enter coordinates: ");
+        x = myScan.nextInt();
+        y = myScan.nextInt();
+        drawer(graphics,x,y);
+
 
 
 
     }
+    public static void drawer(Graphics g, int x, int y) {
+        g.setColor(Color.BLACK);
+        g.drawLine(x,y, WIDTH / 2,HEIGHT /2);
+
+    }
+
 
     //    Don't touch the code below
     static int WIDTH = 320;

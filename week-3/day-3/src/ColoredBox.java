@@ -11,11 +11,11 @@ public class ColoredBox {
         graphics.setColor(Color.BLUE);
         graphics.drawLine(0,0,320,0);
         graphics.setColor(Color.RED);
-        graphics.drawLine(0,0,0,343);
+        graphics.drawLine(0,0,0,320);
         graphics.setColor(Color.BLACK);
-        graphics.drawLine(0,343,320,343);
+        graphics.drawLine(0,320,320,320);
         graphics.setColor(Color.GREEN);
-        graphics.drawLine(320,0,320,343);
+        graphics.drawLine(320,0,320,320);
 
 
 
