@@ -34,22 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColoredBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Diagonals.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="112">
               <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +49,7 @@
       <file leaf-file-name="GoToCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="700">
               <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CenterBoxFunction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CenterBoxFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CenterBoxFunction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainbowBoxFUnction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RainbowBoxFUnction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/FourRectangles.java" />
         <option value="$PROJECT_DIR$/src/PositionSquare.java" />
         <option value="$PROJECT_DIR$/src/CenterBoxFunction.java" />
+        <option value="$PROJECT_DIR$/src/RainbowBoxFUnction.java" />
       </list>
     </option>
   </component>
@@ -227,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CenterBoxFunction">
+  <component name="RunManager" selected="Application.RainbowBoxFUnction">
     <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
@@ -270,9 +271,9 @@
       <module name="day-3" />
       <envs />
     </configuration>
-    <configuration name="HorizontalLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HorizontalLines" />
+      <option name="MAIN_CLASS_NAME" value="PositionSquare" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -284,9 +285,9 @@
       <module name="day-3" />
       <envs />
     </configuration>
-    <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RainbowBoxFUnction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PositionSquare" />
+      <option name="MAIN_CLASS_NAME" value="RainbowBoxFUnction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -380,19 +381,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.HorizontalLines" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CenteredSquare" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FourRectangles" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PositionSquare" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CenterBoxFunction" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CenteredSquare" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FourRectangles" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PositionSquare" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CenterBoxFunction" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RainbowBoxFUnction" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CenterBoxFunction" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PositionSquare" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FourRectangles" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CenteredSquare" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HorizontalLines" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RainbowBoxFUnction" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CenterBoxFunction" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PositionSquare" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FourRectangles" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CenteredSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -407,12 +408,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505834054392</updated>
       <workItem from="1505834055712" duration="524000" />
-      <workItem from="1505892883571" duration="7647000" />
+      <workItem from="1505892883571" duration="9425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8171000" />
+    <option name="totallyTimeSpent" value="9949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -487,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HorizontalLines.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -522,16 +513,6 @@
         <state relative-caret-position="369">
           <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,10 +546,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CenterBoxFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RainbowBoxFUnction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
