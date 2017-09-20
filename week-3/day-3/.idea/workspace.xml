@@ -61,7 +61,7 @@
       <file leaf-file-name="GoToCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="448">
               <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,11 +70,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HorizontalLines.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HorizontalLines.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HorizontalLines.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CenteredSquare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CenteredSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourRectangles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourRectangles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/ColoredBox.java" />
         <option value="$PROJECT_DIR$/src/Diagonals.java" />
         <option value="$PROJECT_DIR$/src/HorizontalLines.java" />
+        <option value="$PROJECT_DIR$/src/CenteredSquare.java" />
+        <option value="$PROJECT_DIR$/src/FourRectangles.java" />
       </list>
     </option>
   </component>
@@ -161,6 +187,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,7 +201,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HorizontalLines">
+  <component name="RunManager" selected="Application.CenteredSquare">
+    <configuration name="CenteredSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CenteredSquare" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="day-3" />
+      <envs />
+    </configuration>
     <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ColoredBox" />
@@ -192,20 +233,6 @@
     <configuration name="Diagonals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Diagonals" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="day-3" />
-      <envs />
-    </configuration>
-    <configuration name="Drawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Drawing" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -327,19 +354,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Drawing" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ColoredBox" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Diagonals" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GoToCenter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HorizontalLines" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ColoredBox" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Diagonals" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GoToCenter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HorizontalLines" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CenteredSquare" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HorizontalLines" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Diagonals" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ColoredBox" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GoToCenter" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Drawing" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CenteredSquare" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HorizontalLines" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Diagonals" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ColoredBox" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GoToCenter" />
       </list>
     </recent_temporary>
   </component>
@@ -354,12 +381,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505834054392</updated>
       <workItem from="1505834055712" duration="524000" />
-      <workItem from="1505892883571" duration="4679000" />
+      <workItem from="1505892883571" duration="6411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5203000" />
+    <option name="totallyTimeSpent" value="6935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -424,34 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticeDrawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -476,6 +475,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticeDrawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourRectangles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CenteredSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
