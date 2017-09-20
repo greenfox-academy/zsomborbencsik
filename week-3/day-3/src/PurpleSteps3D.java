@@ -4,20 +4,26 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps {
+public class PurpleSteps3D {
 
     public static void mainDraw(Graphics graphics){
-        graphics.setColor(Color.RED);
-        int xStart = 150;
-        int yStart = 150;
-        int size = 10;
+            graphics.setColor(Color.RED);
+            int xStart = 10;
+            int yStart = 10;
+            int size = 10;
 
-        for (int i = 0; i < 15; i++) {
-            graphics.fillRect(xStart,yStart, size, size);
-            xStart -= size;
-            yStart -= size;
+            for (int i = 0; i < 6; i++) {
+                graphics.fillRect(xStart,yStart, size, size);
+                xStart += size;
+                yStart += size;
+                size *= 1.5;
+
+            }
         }
-    }
+
+
+
+
 
     //    Don't touch the code below
     static int WIDTH = 320;
