@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Diagonals.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CenterBoxFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CenterBoxFunction.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,11 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnvelopeStar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnvelopeStar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="224">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectTheDots.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/LinePlay.java" />
         <option value="$PROJECT_DIR$/src/LinePlayQuarters.java" />
         <option value="$PROJECT_DIR$/src/EnvelopeStar.java" />
+        <option value="$PROJECT_DIR$/src/ConnectTheDots.java" />
       </list>
     </option>
   </component>
@@ -237,10 +238,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnvelopeStar">
-    <configuration name="CheckerBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ConnectTheDots">
+    <configuration name="ConnectTheDots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CheckerBoard" />
+      <option name="MAIN_CLASS_NAME" value="ConnectTheDots" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -390,19 +391,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CheckerBoard" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FunctionToCenter" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LinePlay" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinePlayQuarters" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EnvelopeStar" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FunctionToCenter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LinePlay" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinePlayQuarters" />
+      <item index="3" class="java.lang.String" itemvalue="Application.EnvelopeStar" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectTheDots" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.EnvelopeStar" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinePlay" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinePlayQuarters" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FunctionToCenter" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CheckerBoard" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConnectTheDots" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EnvelopeStar" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinePlay" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LinePlayQuarters" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FunctionToCenter" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +418,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505834054392</updated>
       <workItem from="1505834055712" duration="524000" />
-      <workItem from="1505892883571" duration="18776000" />
+      <workItem from="1505892883571" duration="21631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19300000" />
+    <option name="totallyTimeSpent" value="22155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -437,7 +438,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25854215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25854215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -657,8 +658,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
