@@ -5,6 +5,7 @@ public class Sharpie {
 
     public float use() {
         inkAmount -= 20;
+        return  inkAmount;
     }
 
     public static void main(String[] args) {
