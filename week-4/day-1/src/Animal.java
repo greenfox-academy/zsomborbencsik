@@ -21,7 +21,7 @@ public class Animal {
         Animal tiger = new Animal();
         tiger.play();
 
-        System.out.println(tiger.hunger);
+        System.out.println(tiger.thirst);
 
 
     }
