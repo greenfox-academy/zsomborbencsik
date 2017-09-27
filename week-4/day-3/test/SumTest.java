@@ -13,10 +13,11 @@ public class SumTest {
         ArrayList<Integer> testlist = new ArrayList<>(Arrays.asList(3,5,2,7));
         assertEquals(17,summing.sum(testlist));
     }
+    @Test
     public void sumTest2() throws Exception {
         Sum summing = new Sum();
-        ArrayList<Integer> testlist2 = new ArrayList<>();
-        assertEquals(0,summing.sum(testlist2));
+        ArrayList<Integer> testlist2 = new ArrayList<>(Arrays.asList(8));
+        assertEquals(8,summing.sum(testlist2));
     }
 
 
