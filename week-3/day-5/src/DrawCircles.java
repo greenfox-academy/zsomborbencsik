@@ -4,31 +4,29 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class SquareGrid {
+public class DrawCircles {
 
     public static void mainDraw(Graphics graphics){
+        int constans = HEIGHT;
+        circles(graphics,0,0,HEIGHT, 5);
 
-        SquareGrid(graphics,0,0, HEIGHT, 4);
+
+
 
     }
-    static int SquareGrid (Graphics g, int x, int y, int size, int n) {
+    static int circles (Graphics g, int x, int y, int size, int n) {
         g.setColor(Color.BLACK);
-
-        for (int i = 0; i < n *3; i++) {
-            g.drawRect(x + (size/4) + i, y + (size/4) + i, (size/2) - i, (size/2) - i);
-            g.drawRect(x + (size/4), y + (size/4), (size/2) - i, (size/2) - i);
-        }
+        g.drawOval(x,y,size,size);
         if (n == 0) {
             return 0;
         } else {
-            SquareGrid(g, x , y , size/2, n-1);
+            circles(g, x + size/4, y, size/2, n-1);
 
-            SquareGrid(g, x + size/2 , y , size/2, n-1);
-            SquareGrid(g, x,y + size/2, size/2, n-1);
-            SquareGrid(g, x + size/2,y + size/2, size/2, n-1);
+
         }
-        return  0;
 
+
+    return 0;
     }
 
     //    Don't touch the code below

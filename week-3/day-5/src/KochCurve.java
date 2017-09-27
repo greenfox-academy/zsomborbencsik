@@ -4,31 +4,16 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class SquareGrid {
+public class KochCurve {
 
     public static void mainDraw(Graphics graphics){
 
-        SquareGrid(graphics,0,0, HEIGHT, 4);
 
     }
-    static int SquareGrid (Graphics g, int x, int y, int size, int n) {
+    static int SquareGrid (Graphics g, int depth, double size) {
         g.setColor(Color.BLACK);
 
-        for (int i = 0; i < n *3; i++) {
-            g.drawRect(x + (size/4) + i, y + (size/4) + i, (size/2) - i, (size/2) - i);
-            g.drawRect(x + (size/4), y + (size/4), (size/2) - i, (size/2) - i);
-        }
-        if (n == 0) {
-            return 0;
-        } else {
-            SquareGrid(g, x , y , size/2, n-1);
-
-            SquareGrid(g, x + size/2 , y , size/2, n-1);
-            SquareGrid(g, x,y + size/2, size/2, n-1);
-            SquareGrid(g, x + size/2,y + size/2, size/2, n-1);
-        }
         return  0;
-
     }
 
     //    Don't touch the code below
