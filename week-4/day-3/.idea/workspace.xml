@@ -12,34 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#51#52#0" expanded="true" />
-                <element signature="e#81#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/AppleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -49,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/test/SumTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -59,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -69,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/test/AnagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/test/LettersTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#292#312#0" expanded="true" />
               </folding>
@@ -113,12 +90,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Extension.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Extension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtensionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ExtensionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +182,8 @@
         <option value="$PROJECT_DIR$/test/LettersTest.java" />
         <option value="$PROJECT_DIR$/test/Fibonacci.java" />
         <option value="$PROJECT_DIR$/test/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/test/ExtensionTest.java" />
+        <option value="$PROJECT_DIR$/src/Extension.java" />
       </list>
     </option>
   </component>
@@ -241,29 +272,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciTest.dothefibo">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Anagram" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="day-3" />
-      <envs />
-    </configuration>
-    <configuration name="AnagramTest.anagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExtensionTest.testAdd_6and4is10">
+    <configuration name="ExtensionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="day-3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnagramTest" />
-      <option name="METHOD_NAME" value="anagramTest" />
+      <option name="MAIN_CLASS_NAME" value="ExtensionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ExtensionTest.testAdd_6and4is10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="day-3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExtensionTest" />
+      <option name="METHOD_NAME" value="testAdd_6and4is10" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -412,19 +449,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Anagram" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Letters" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.dothefibo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Letters" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.dothefibo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExtensionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExtensionTest.testAdd_6and4is10" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.dothefibo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Letters" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Anagram" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExtensionTest.testAdd_6and4is10" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExtensionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest.dothefibo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Letters" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +475,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506497750399</updated>
-      <workItem from="1506497751756" duration="8509000" />
+      <workItem from="1506497751756" duration="8844000" />
     </task>
     <servers />
   </component>
@@ -448,6 +485,15 @@
     </history-entry>
     <history-entry file="AnagramTest_anagramTest - 2017.09.27 at 11h 22m 12s.xml">
       <configuration name="AnagramTest.anagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest - 2017.09.27 at 12h 21m 45s.xml">
+      <configuration name="ExtensionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest_testAdd_6and4is10 - 2017.09.27 at 12h 23m 39s.xml">
+      <configuration name="ExtensionTest.testAdd_6and4is10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest_testAdd_6and4is10 - 2017.09.27 at 12h 24m 09s.xml">
+      <configuration name="ExtensionTest.testAdd_6and4is10" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FibonacciTest_dothefibo - 2017.09.27 at 12h 18m 26s.xml">
       <configuration name="FibonacciTest.dothefibo" configurationId="JUnit" />
@@ -461,21 +507,12 @@
     <history-entry file="LettersTest_countLetter - 2017.09.27 at 11h 51m 52s.xml">
       <configuration name="LettersTest.countLetter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumTest - 2017.09.27 at 11h 02m 05s.xml">
-      <configuration name="SumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SumTest - 2017.09.27 at 11h 03m 31s.xml">
       <configuration name="SumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumTest_sumTest2 - 2017.09.27 at 11h 02m 13s.xml">
-      <configuration name="SumTest.sumTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SumTest_sumTest2 - 2017.09.27 at 11h 03m 03s.xml">
-      <configuration name="SumTest.sumTest2" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8509000" />
+    <option name="totallyTimeSpent" value="8844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -544,7 +581,7 @@
     <entry file="file://$PROJECT_DIR$/src/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -552,7 +589,7 @@
     <entry file="file://$PROJECT_DIR$/test/SumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -560,7 +597,7 @@
     <entry file="file://$PROJECT_DIR$/src/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -568,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/test/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -587,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/test/LettersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#292#312#0" expanded="true" />
           </folding>
@@ -610,6 +647,54 @@
         <state relative-caret-position="168">
           <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Extension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ExtensionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
