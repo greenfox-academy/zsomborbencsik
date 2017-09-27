@@ -16,8 +16,8 @@ public class SumTest {
     @Test
     public void sumTest2() throws Exception {
         Sum summing = new Sum();
-        ArrayList<Integer> testlist2 = new ArrayList<>(Arrays.asList(8));
-        assertEquals(8,summing.sum(testlist2));
+        ArrayList<Integer> testlist2 = new ArrayList<>(Arrays.asList(null));
+        assertEquals(null,summing.sum(testlist2));
     }
 
 

@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="392">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -162,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SumTest.sumTest2">
+  <component name="RunManager" selected="JUnit.SumTest">
     <configuration name="AppleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="day-3" />
@@ -353,8 +353,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SumTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SumTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest2" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AppleTest.getAppleTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.AppleTest" />
@@ -371,16 +371,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506497750399</updated>
-      <workItem from="1506497751756" duration="3932000" />
+      <workItem from="1506497751756" duration="4044000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="AppleTest - 2017.09.27 at 10h 31m 55s.xml">
       <configuration name="AppleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppleTest_getAppleTest - 2017.09.27 at 10h 31m 26s.xml">
-      <configuration name="AppleTest.getAppleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AppleTest_getAppleTest - 2017.09.27 at 10h 34m 58s.xml">
       <configuration name="AppleTest.getAppleTest" configurationId="JUnit" />
@@ -397,15 +394,21 @@
     <history-entry file="SumTest - 2017.09.27 at 11h 02m 05s.xml">
       <configuration name="SumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SumTest - 2017.09.27 at 11h 03m 31s.xml">
+      <configuration name="SumTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SumTest_sumTest - 2017.09.27 at 10h 48m 12s.xml">
       <configuration name="SumTest.sumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SumTest_sumTest2 - 2017.09.27 at 11h 02m 13s.xml">
       <configuration name="SumTest.sumTest2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SumTest_sumTest2 - 2017.09.27 at 11h 03m 03s.xml">
+      <configuration name="SumTest.sumTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3932000" />
+    <option name="totallyTimeSpent" value="4044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -452,14 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/AppleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -481,8 +476,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="392">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
