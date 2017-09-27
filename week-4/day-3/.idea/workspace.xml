@@ -65,12 +65,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/AnagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Letters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Letters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#183#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LettersTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/LettersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+              <folding>
+                <element signature="e#292#312#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +126,8 @@
         <option value="$PROJECT_DIR$/test/SumTest.java" />
         <option value="$PROJECT_DIR$/src/Anagram.java" />
         <option value="$PROJECT_DIR$/test/AnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/Letters.java" />
+        <option value="$PROJECT_DIR$/test/LettersTest.java" />
       </list>
     </option>
   </component>
@@ -184,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnagramTest.anagramTest">
+  <component name="RunManager" selected="JUnit.LettersTest.countLetter">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Anagram" />
@@ -219,6 +246,40 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Letters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Letters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="day-3" />
+      <envs />
+    </configuration>
+    <configuration name="LettersTest.countLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="day-3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LettersTest" />
+      <option name="METHOD_NAME" value="countLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="day-3" />
@@ -228,46 +289,6 @@
       <option name="MAIN_CLASS_NAME" value="SumTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SumTest.sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="day-3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SumTest" />
-      <option name="METHOD_NAME" value="sumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SumTest.sumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="day-3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SumTest" />
-      <option name="METHOD_NAME" value="sumTest2" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -362,18 +383,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SumTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Anagram" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Anagram" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Letters" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Anagram" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SumTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SumTest.sumTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LettersTest.countLetter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Letters" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AnagramTest.anagramTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Anagram" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +408,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506497750399</updated>
-      <workItem from="1506497751756" duration="5157000" />
+      <workItem from="1506497751756" duration="6970000" />
     </task>
     <servers />
   </component>
@@ -398,8 +419,11 @@
     <history-entry file="AnagramTest_anagramTest - 2017.09.27 at 11h 22m 12s.xml">
       <configuration name="AnagramTest.anagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumTest - 2017.09.27 at 10h 51m 41s.xml">
-      <configuration name="SumTest" configurationId="JUnit" />
+    <history-entry file="LettersTest_countLetter - 2017.09.27 at 11h 51m 45s.xml">
+      <configuration name="LettersTest.countLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LettersTest_countLetter - 2017.09.27 at 11h 51m 52s.xml">
+      <configuration name="LettersTest.countLetter" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SumTest - 2017.09.27 at 11h 01m 33s.xml">
       <configuration name="SumTest" configurationId="JUnit" />
@@ -413,9 +437,6 @@
     <history-entry file="SumTest - 2017.09.27 at 11h 03m 31s.xml">
       <configuration name="SumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumTest_sumTest - 2017.09.27 at 10h 48m 12s.xml">
-      <configuration name="SumTest.sumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SumTest_sumTest2 - 2017.09.27 at 11h 02m 13s.xml">
       <configuration name="SumTest.sumTest2" configurationId="JUnit" />
     </history-entry>
@@ -424,7 +445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5157000" />
+    <option name="totallyTimeSpent" value="6970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -519,6 +540,27 @@
         <state relative-caret-position="252">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Letters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/LettersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="e#292#312#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
