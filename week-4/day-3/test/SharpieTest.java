@@ -13,13 +13,13 @@ public class SharpieTest {
     public void countUsable() throws Exception {
         Sharpie nicesharpie2 = new Sharpie();
         nicesharpie2.inkAmount = 0;
-        assertEquals(null,nicesharpie2.countUsable());
+
     }
 
     @Test
     public void removeTrash() throws Exception {
         Sharpie nicesharpie3 = new Sharpie();
-        assertEquals(null,nicesharpie3.removeTrash());
+
     }
 
     @Test

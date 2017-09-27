@@ -5,6 +5,12 @@ public class Garden {
     int trees;
     int water;
 
+    public Garden(int flowers, int trees, int water) {
+        this.flowers = flowers;
+        this.trees = trees;
+        this.water = water;
+    }
+
     public static void main(String[] args) {
         Flower flower1 = new Flower();
         flower1.plantColor = "yellow";
@@ -16,12 +22,11 @@ public class Garden {
         tree2.plantColor = "orange";
 
         Plants plant = new Plants();
+        Flower flower = new Flower();
 
-        Scanner myScanner = new Scanner(System.in);
-        System.out.println("Enter water amount: ");
-        int user_input = myScanner.nextInt();
-        plant.wateramount = user_input;
-        System.out.println(flower1.waterNeed);
+        flower1.watering(40);
+        System.out.println(flower1.currentWaterLevel);
+        flower1.needsWater();
 
 
 

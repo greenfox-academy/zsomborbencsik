@@ -1,5 +1,6 @@
 public class Plants {
-    float waterNeed;
+    float minimumWaterNeed;
+    float currentWaterLevel;
     int plantNumber;
     int wateramount;
     String plantColor;
@@ -7,19 +8,25 @@ public class Plants {
 
 
     public Plants() {
-        this.waterNeed = 0;
+        this.minimumWaterNeed = 0;
         this.plantNumber = 0;
         this.wateramount = 0;
         this.plantColor = "";
         this.absorb = 0;
+        this.currentWaterLevel = 0;
+    }
+    public void needsWater() {
+        if (currentWaterLevel >= 0) {
+            System.out.println("Needs water");
+        }
     }
 
 
     public float watering(int wateramount) {
         if (wateramount <= 40) {
-            waterNeed = (waterNeed + wateramount) * absorb;
+            currentWaterLevel = (currentWaterLevel + wateramount) * absorb;
         }
-        return waterNeed;
+        return currentWaterLevel;
     }
 
 }
