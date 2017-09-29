@@ -26,8 +26,28 @@ public class Tasks {
         Tasks newtask = new Tasks();
         newtask.addToFile(lines);
     }
+    public void checkTask(int index) {
+        lines.set(index, "");
+    }
+    public void removeFromList(String removeline) {
+        int removLin1e = 0;
+        try {
+            removLin1e = Integer.parseInt(removeline);
+        } catch (NumberFormatException e) {
+            System.out.println("Unable to remove: index is not a number");
+            return;
+        }
+        try {
+            lines.remove(removLin1e -1);
+        } catch (Exception e) {
+            System.out.println("Unable to remove: index is out of bound");
+        }
+    }
+    public int getListSize() {
+        int b = lines.size();
+        return b;
+    }
     public void addToFile(List<String> task) {
-
         Path filePath = null;
         try {
             filePath = Paths.get("C:\\Users\\ATOM\\greenfox\\zsomborbencsik\\week-4\\day-4\\src\\example.txt");
@@ -39,6 +59,11 @@ public class Tasks {
 
 
     public void listAllTasks() {
+        for (int i = 0; i < lines.size(); i++) {
+            System.out.println(i + 1 + " - " + "[] " + lines.get(i));
+        }
+    }
+    public void addAllTasks() {
         Path filePath = Paths.get("C:\\Users\\ATOM\\greenfox\\zsomborbencsik\\week-4\\day-4\\src\\example.txt");
         this.lines = null;
         try {
@@ -46,7 +71,6 @@ public class Tasks {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(lines);
     }
 }
 
