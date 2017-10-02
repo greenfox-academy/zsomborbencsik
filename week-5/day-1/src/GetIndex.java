@@ -12,5 +12,16 @@ public class GetIndex {
         }
         return -1;
     }
-    public boolean
+    public boolean anagram(String word1, String word2) {
+        char[] wordone = word1.replaceAll("[\\s]", "").toCharArray();
+        char[] wordtwo = word2.replaceAll("[\\s]", "").toCharArray();
+        Arrays.sort(wordone);
+        Arrays.sort(wordtwo);
+        if (Arrays.equals(wordone, wordtwo)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
