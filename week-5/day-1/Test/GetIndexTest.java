@@ -45,5 +45,4 @@ public class GetIndexTest {
         GetIndex index = new GetIndex();
         assertEquals(true, index.anagram("bul1", "lulb3"));
     }
-
 }
