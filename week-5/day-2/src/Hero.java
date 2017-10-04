@@ -6,6 +6,7 @@ public class Hero extends Character {
 
     public Hero() {
         super("hero0.png", 0,0);
+        this.characterName = "Achilles";
     }
 
     public void drawHero(String direction) {

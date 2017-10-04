@@ -6,5 +6,6 @@ public class Skeleton extends Character {
 
     public Skeleton() {
         super("skeleton.png", 0,0);
+        this.characterName = "Skeleton";
     }
 }
