@@ -7,6 +7,11 @@ public class Hero extends Character {
     public Hero() {
         super("hero0.png", 0,0);
         this.characterName = "Achilles";
+        this.characterMaxHp = 20 + (3*d6);
+        this.characterCurrentHp = 0;
+        this.characterLevel = 0;
+        this.characterDefensePoint = 2*d6;
+        this.characterStrikePoint = 5+d6;
     }
 
     public void drawHero(String direction) {
