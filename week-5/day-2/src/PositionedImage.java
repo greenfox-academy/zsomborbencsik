@@ -8,7 +8,6 @@ public class PositionedImage {
 
     BufferedImage image;
     int posX, posY;
-
     public PositionedImage(String filename, int posX, int posY) {
         this.posX = posX;
         this.posY = posY;
@@ -18,6 +17,7 @@ public class PositionedImage {
             e.printStackTrace();
         }
     }
+
 
     public void draw(Graphics graphics) {
         if (image != null) {
