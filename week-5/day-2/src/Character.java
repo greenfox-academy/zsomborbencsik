@@ -25,4 +25,8 @@ public class Character extends PositionedImage {
     public void drawHUD(Graphics g, Character character, int hudposX, int hudposY) {
         g.drawString(character.characterName + "Level: " + character.characterLevel + "HP: " + characterCurrentHp + "\\" + characterMaxHp + "|" +  "DP: " + characterDefensePoint + "|" + "SP: " +character.characterStrikePoint,hudposX,hudposY);
     }
+
+    public void strike(Character character, Character character2) {
+        character2.characterCurrentHp -= character.characterStrikePoint;
+    }
 }

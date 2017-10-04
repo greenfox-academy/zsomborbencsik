@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 
 
 public class Board extends JComponent implements KeyListener {
@@ -17,6 +18,7 @@ public class Board extends JComponent implements KeyListener {
     Hero achilles;
     ArrayList<Skeleton> skeletons;
     Boss negan;
+    Monster npcs;
 
     public Board() {
         achilles = new Hero();
@@ -73,10 +75,19 @@ public class Board extends JComponent implements KeyListener {
         negan.posY = 2*oneUnit;
         negan.draw(graphics);
 
+
         /*Hero*/
         achilles.draw(graphics);
         achilles.drawHUD(graphics,achilles,0, 730);
-        /*HUD*/
+        /*Fight*/
+        if (achilles.posX == negan.posX && achilles.posY == negan.posY) {
+            graphics.drawString("You encountered a wild BOSS", 0, 770);
+            negan.drawHUD(graphics,negan,0, 750);
+            while (negan.characterCurrentHp > 0) {
+                achilles.strike(achilles,negan);
+                negan.strike(negan,achilles);
+            }
+        }
     }
     // To be a KeyListener the class needs to have these 3 methods in it
     @Override
@@ -98,6 +109,7 @@ public class Board extends JComponent implements KeyListener {
             achilles.drawHero("right");
             achilles.posX += oneUnit;
         }
+
         repaint();
     }
     @Override
