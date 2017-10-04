@@ -19,7 +19,10 @@ public class Board extends JComponent implements KeyListener {
 
     public Board() {
         achilles = new Hero();
-        skeletons = new ArrayList<>(Arrays.asList());
+        skeletons = new ArrayList<>();
+        skeletons.add(new Skeleton());
+        skeletons.add(new Skeleton());
+        skeletons.add(new Skeleton());
         oneUnit = 72;
         matrix = new int[][]{
                 {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
@@ -52,9 +55,16 @@ public class Board extends JComponent implements KeyListener {
                 }
             }
         }
-        skeleton1.posX = 2*oneUnit;
-        skeleton1.posY = 3*oneUnit;
-        skeleton1.draw(graphics);
+        skeletons.get(0).posX = 2*oneUnit;
+        skeletons.get(0).posY = 3*oneUnit;
+        skeletons.get(0).draw(graphics);
+        skeletons.get(1).posX = 4*oneUnit;
+        skeletons.get(1).posY = 7*oneUnit;
+        skeletons.get(1).draw(graphics);
+        skeletons.get(2).posX = 7*oneUnit;
+        skeletons.get(2).posY = 9*oneUnit;
+        skeletons.get(2).draw(graphics);
+
         achilles.draw(graphics);
     }
     // To be a KeyListener the class needs to have these 3 methods in it
