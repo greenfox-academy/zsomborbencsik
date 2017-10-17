@@ -9,6 +9,7 @@ public class Character extends PositionedImage {
     int characterStrikePoint;
     String characterName;
     Random random;
+    Map map;
     int d6;
 
     public Character(String filename, int posX, int posY) {
@@ -20,6 +21,7 @@ public class Character extends PositionedImage {
         this.characterStrikePoint = 0;
         random = new Random();
         d6 = random.nextInt(6) + 1;
+        map = new Map();
     }
 
     public void drawHUD(Graphics g, Character character, int hudposX, int hudposY) {
@@ -28,5 +30,10 @@ public class Character extends PositionedImage {
 
     public void strike(Character character, Character character2) {
         character2.characterCurrentHp -= character.characterStrikePoint;
+    }
+    public void setRandomPosition(Character character) {
+        int randomPositionX = random.nextInt(10) + 1;
+        int randomPositionY = random.nextInt(10) + 1;
+
     }
 }

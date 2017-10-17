@@ -8,38 +8,24 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
 public class Board extends JComponent implements KeyListener {
 
     int oneUnit;
-    int[][] matrix;
+    Map map;
     Hero achilles;
     ArrayList<Skeleton> skeletons;
     Boss negan;
     Monster npcs;
 
     public Board() {
+        map = new Map();
         achilles = new Hero();
-        skeletons = new ArrayList<>();
-        skeletons.add(new Skeleton());
-        skeletons.add(new Skeleton());
-        skeletons.add(new Skeleton());
         negan = new Boss();
         oneUnit = 72;
-        matrix = new int[][]{
-                {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
-                {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
-                {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
-                {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
-                {1, 1, 1, 1, 0, 1, 1, 1, 1, 0},
-                {0, 1, 0, 1, 0, 0, 0, 0, 1, 0},
-                {0, 1, 0, 1, 0, 1, 1, 0, 1, 0},
-                {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
-                {0, 1, 1, 1, 0, 0, 0, 0, 1, 0},
-                {0, 0, 0, 1, 0, 1, 1, 0, 0, 0}
-        };
 
         setPreferredSize(new Dimension(720, 720));
         setVisible(true);
@@ -48,33 +34,26 @@ public class Board extends JComponent implements KeyListener {
     @Override
     public void paint(Graphics graphics) {
         super.paint(graphics);
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                if (matrix[i][j] == 1) {
-                    PositionedImage wall = new PositionedImage("wall.png",j*oneUnit,i*oneUnit);
+        for (int i = 0; i < map.matrix.length; i++) {
+            for (int j = 0; j < map.matrix.length; j++) {
+                if (map.matrix[i][j] == 1) {
+                    PositionedImage wall = new PositionedImage("wall.png",j,i);
                     wall.draw(graphics);
                 } else {
-                    PositionedImage floorTile = new PositionedImage("C:\\Users\\ATOM\\greenfox\\zsomborbencsik\\week-5\\day-2\\floor.png", j*oneUnit, i*oneUnit);
+                    PositionedImage floorTile = new PositionedImage("C:\\Users\\ATOM\\greenfox\\zsomborbencsik\\week-5\\day-2\\floor.png", j, i);
                     floorTile.draw(graphics);
                 }
             }
         }
         /*Skeletons*/
-        skeletons.get(0).posX = 2*oneUnit;
-        skeletons.get(0).posY = 3*oneUnit;
-        skeletons.get(0).draw(graphics);
-        skeletons.get(1).posX = 4*oneUnit;
-        skeletons.get(1).posY = 7*oneUnit;
-        skeletons.get(1).draw(graphics);
-        skeletons.get(2).posX = 7*oneUnit;
-        skeletons.get(2).posY = 9*oneUnit;
-        skeletons.get(2).draw(graphics);
+        for (int i = 0; i < skeletons.size(); i++) {
+            skeletons.get(i).draw(graphics);
+        }
 
         /*Bosses*/
-        negan.posX = 6*oneUnit;
-        negan.posY = 2*oneUnit;
+        negan.posX = 6;
+        negan.posY = 2;
         negan.draw(graphics);
-
 
         /*Hero*/
         achilles.draw(graphics);
@@ -96,20 +75,19 @@ public class Board extends JComponent implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if (e.getKeyCode() == KeyEvent.VK_UP && achilles.posY / oneUnit != 0 && matrix[achilles.posY / oneUnit-1][achilles.posX / oneUnit] != 1) {
+        if (e.getKeyCode() == KeyEvent.VK_UP && achilles.posY > 0 && map.matrix[achilles.posY - 1][achilles.posX] != 1) {
             achilles.drawHero("up");
-            achilles.posY -= oneUnit;
-        } else if (e.getKeyCode() == KeyEvent.VK_DOWN && achilles.posY / oneUnit <= 9 && matrix[achilles.posY / oneUnit +1][achilles.posX / oneUnit] != 1) {
+            achilles.posY -= 1;
+        } else if (e.getKeyCode() == KeyEvent.VK_DOWN && achilles.posY < 9 && map.matrix[achilles.posY +1][achilles.posX] != 1) {
             achilles.drawHero("down");
-            achilles.posY += oneUnit;
-        } else if (e.getKeyCode() == KeyEvent.VK_LEFT && achilles.posX / oneUnit != 0 && matrix[achilles.posY / oneUnit][achilles.posX / oneUnit -1] != 1) {
+            achilles.posY += 1;
+        } else if (e.getKeyCode() == KeyEvent.VK_LEFT && achilles.posX > 0 && map.matrix[achilles.posY][achilles.posX -1] != 1) {
             achilles.drawHero("left");
-            achilles.posX -= oneUnit;
-        } else if (e.getKeyCode() == KeyEvent.VK_RIGHT && achilles.posX / oneUnit <= 9 && matrix[achilles.posY / oneUnit][achilles.posX / oneUnit +1] != 1) {
+            achilles.posX -= 1;
+        } else if (e.getKeyCode() == KeyEvent.VK_RIGHT && achilles.posX < 9 && map.matrix[achilles.posY][achilles.posX +1] != 1) {
             achilles.drawHero("right");
-            achilles.posX += oneUnit;
+            achilles.posX += 1;
         }
-
         repaint();
     }
     @Override

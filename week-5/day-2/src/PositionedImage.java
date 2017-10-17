@@ -8,6 +8,7 @@ public class PositionedImage {
 
     BufferedImage image;
     int posX, posY;
+
     public PositionedImage(String filename, int posX, int posY) {
         this.posX = posX;
         this.posY = posY;
@@ -18,10 +19,9 @@ public class PositionedImage {
         }
     }
 
-
     public void draw(Graphics graphics) {
         if (image != null) {
-            graphics.drawImage(image, posX, posY, null);
+            graphics.drawImage(image, posX *72, posY *72, null);
         }
     }
 }
