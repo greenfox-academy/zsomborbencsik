@@ -11,10 +11,10 @@ public class Car {
     }
 
     public enum carType {
-        HONDA,MAZDA,TOYOTA,FERRARI,PEUGEOT;
+        HONDA,MAZDA,TOYOTA,FERRARI,PEUGEOT
     }
     public enum carColor{
-        RED,BLUE,BLACK,GREY,GREEN;
+        RED,BLUE,BLACK,GREY,GREEN
     }
     public String getterType() {
         return this.type;
