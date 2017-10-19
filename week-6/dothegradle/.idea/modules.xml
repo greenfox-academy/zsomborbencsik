@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dothegradle.iml" filepath="$PROJECT_DIR$/.idea/modules/dothegradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dothegradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dothegradle_main.iml" group="dothegradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dothegradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dothegradle_test.iml" group="dothegradle" />
+    </modules>
+  </component>
+</project>
