@@ -1,4 +1,4 @@
-package com.greenfoxacademy.springstart.controllers;
+package com.greenfoxacademy.springstart;
 
 import org.springframework.web.bind.annotation.RequestParam;
 
