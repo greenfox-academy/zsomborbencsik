@@ -36,8 +36,8 @@ public class Exercise1Controller {
     public String listAllAccounts(Model model) {
         List<BankAccount> bankAccounts = new ArrayList<>();
         bankAccounts.add(new BankAccount("Nemo",1,"fish"));
-        bankAccounts.add(new BankAccount("Hodor",1500,"human"));
-        bankAccounts.add(new BankAccount("Doggie",0,"dog"));
+        bankAccounts.add(new BankAccount("King",10000,"human"));
+        bankAccounts.add(new BankAccount("Doggie",2,"dog"));
         bankAccounts.add(new BankAccount("Bambi",15,"deer"));
         model.addAttribute("listOfAccounts",bankAccounts);
         return "listofbankaccounts";

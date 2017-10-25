@@ -7,12 +7,22 @@ public class BankAccount {
     double balance;
     String animalType;
     String currency;
+    boolean isKing;
 
     public BankAccount(String name, double balance, String animalType) {
         this.name = name;
         this.balance = balance;
         this.animalType = animalType;
         this.currency = " Frog";
+        if (this.name.equals("King")) {
+            this.isKing = true;
+        } else {
+            this.isKing = false;
+        }
+    }
+
+    public boolean getisKing() {
+        return isKing;
     }
 
     public String getName() {
@@ -31,4 +41,5 @@ public class BankAccount {
     public String getCurrency() {
         return currency;
     }
+
 }
