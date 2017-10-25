@@ -11,6 +11,7 @@
             <th>NAME</th>
             <th>BALANCE</th>
             <th>TYPE</th>
+            <th>GOOD OR BAD</th>
         </tr>
         <!--<tr th:each="emp,iterationStatus  : ${listOfAccounts}" th:if="emp.isKing()" ?>
             <td th:text="${iterationStatus.count}">1</td>
@@ -24,6 +25,7 @@
             <td th:text="${account.name}">Name</td>
             <td th:text="${account.balance}">Balance</td>
             <td th:text="${account.animalType}">Type</td>
+            <td th:text="${account.getGood()} ? 'Good' : 'Bad'"/>
 
         </tr>
     </table>

@@ -16,7 +16,7 @@ public class Exercise1Controller {
     BankAccount bankAcc1;
 
     public Exercise1Controller() {
-        this.bankAcc1 = new BankAccount("Simba",2000,"lion");
+        this.bankAcc1 = new BankAccount("Simba",2000,"lion",true);
     }
 
     @RequestMapping("/bankaccount")
@@ -35,10 +35,10 @@ public class Exercise1Controller {
     @RequestMapping("/bankaccount/list")
     public String listAllAccounts(Model model) {
         List<BankAccount> bankAccounts = new ArrayList<>();
-        bankAccounts.add(new BankAccount("Nemo",1,"fish"));
-        bankAccounts.add(new BankAccount("King",10000,"human"));
-        bankAccounts.add(new BankAccount("Doggie",2,"dog"));
-        bankAccounts.add(new BankAccount("Bambi",15,"deer"));
+        bankAccounts.add(new BankAccount("Nemo",1,"fish",true));
+        bankAccounts.add(new BankAccount("King",10000,"human",false));
+        bankAccounts.add(new BankAccount("Doggie",2,"dog",true));
+        bankAccounts.add(new BankAccount("Bambi",15,"deer",false));
         model.addAttribute("listOfAccounts",bankAccounts);
         return "listofbankaccounts";
     }

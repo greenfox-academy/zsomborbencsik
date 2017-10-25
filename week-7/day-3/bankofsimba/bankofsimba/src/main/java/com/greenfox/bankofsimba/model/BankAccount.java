@@ -8,8 +8,9 @@ public class BankAccount {
     String animalType;
     String currency;
     boolean isKing;
+    boolean good;
 
-    public BankAccount(String name, double balance, String animalType) {
+    public BankAccount(String name, double balance, String animalType, boolean good) {
         this.name = name;
         this.balance = balance;
         this.animalType = animalType;
@@ -19,6 +20,11 @@ public class BankAccount {
         } else {
             this.isKing = false;
         }
+        this.good = good;
+    }
+
+    public boolean getGood() {
+        return good;
     }
 
     public boolean getisKing() {
