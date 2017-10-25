@@ -26,8 +26,10 @@
             <td th:text="${account.balance}">Balance</td>
             <td th:text="${account.animalType}">Type</td>
             <td th:text="${account.getGood()} ? 'Good' : 'Bad'"/>
-
         </tr>
+        <form action="#" th:action="@{/bankaccount/list}" th:object="${account}" method="post">
+            <input type ="button"/>
+        </form>
     </table>
 </body>
 </html>

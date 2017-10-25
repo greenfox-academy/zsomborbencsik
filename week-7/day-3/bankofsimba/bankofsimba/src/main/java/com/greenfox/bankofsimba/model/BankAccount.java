@@ -47,5 +47,12 @@ public class BankAccount {
     public String getCurrency() {
         return currency;
     }
+    public void incrementBalance() {
+        if (this.name.equals("King")) {
+            this.balance += 100;
+        } else {
+            this.balance += 10;
+        }
+    }
 
 }
