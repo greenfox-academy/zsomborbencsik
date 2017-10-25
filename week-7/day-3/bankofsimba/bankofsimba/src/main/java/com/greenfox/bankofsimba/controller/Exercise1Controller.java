@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 public class Exercise1Controller {
@@ -21,6 +23,24 @@ public class Exercise1Controller {
     public String listing(Model model) {
         model.addAttribute("bankaccount",bankAcc1);
         return "listing";
+    }
+
+    @RequestMapping("/method")
+    public String methodName(Model model) {
+        String text = "\"This is an <em>HTML</em> text. <b>Enjoy yourself!</b>\"";
+        model.addAttribute("text", text);
+        return "method";
+    }
+
+    @RequestMapping("/bankaccount/list")
+    public String listAllAccounts(Model model) {
+        List<BankAccount> bankAccounts = new ArrayList<>();
+        bankAccounts.add(new BankAccount("Nemo",1,"fish"));
+        bankAccounts.add(new BankAccount("Hodor",1500,"human"));
+        bankAccounts.add(new BankAccount("Doggie",0,"dog"));
+        bankAccounts.add(new BankAccount("Bambi",15,"deer"));
+        model.addAttribute("listOfAccounts",bankAccounts);
+        return "listofbankaccounts";
     }
 
 }

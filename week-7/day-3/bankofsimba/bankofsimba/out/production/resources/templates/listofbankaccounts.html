@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:background-color="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>BALANCE</th>
+            <th>TYPE</th>
+        </tr>
+        <tr th:each="emp,iterationStatus  : ${listOfAccounts}">
+            <td th:text="${iterationStatus.count}">1</td>
+            <td th:text="${emp.name}">Name</td>
+            <td th:text="${emp.balance}">Balance</td>
+            <td th:text="${emp.animalType}">Type</td>
+        </tr>
+    </table>
+</body>
+</html>
