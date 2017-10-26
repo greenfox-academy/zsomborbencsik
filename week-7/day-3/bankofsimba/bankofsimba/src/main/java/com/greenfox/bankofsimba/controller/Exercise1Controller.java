@@ -16,7 +16,7 @@ import java.util.List;
 @Controller
 public class Exercise1Controller {
     BankAccount bankAcc1;
-    
+
 
     public Exercise1Controller() {
         this.bankAcc1 = new BankAccount("Simba",2000,"lion",true);
