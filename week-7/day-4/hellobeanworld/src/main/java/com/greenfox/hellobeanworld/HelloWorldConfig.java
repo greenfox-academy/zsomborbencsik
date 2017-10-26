@@ -9,6 +9,7 @@ public class HelloWorldConfig {
     @Bean
     public HelloWorld getMessage() {
         HelloWorld helo = new HelloWorld();
+        helo.setMessage("dawwwgggg");
         return helo;
     }
 }
