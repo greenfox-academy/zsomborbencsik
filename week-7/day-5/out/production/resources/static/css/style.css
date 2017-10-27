@@ -15,3 +15,7 @@ body > *  {
 body > script {
     display: none
 }
+
+p {
+    font-family: "Courier New";
+}

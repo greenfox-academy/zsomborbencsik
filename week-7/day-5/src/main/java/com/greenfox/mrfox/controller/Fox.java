@@ -11,15 +11,17 @@ public class Fox {
     ArrayList<Trick> listOfTricks;
     Food food;
     Drink drink;
+    boolean isAlive;
 
     public Fox() {
     }
 
-    public Fox(String name, ArrayList<Trick> listOfTricks, Food food, Drink drink) {
+    public Fox(String name, ArrayList<Trick> listOfTricks, Food food, Drink drink, boolean isAlive) {
         this.name = name;
         this.listOfTricks = listOfTricks;
         this.food = food;
         this.drink = drink;
+        this.isAlive = isAlive;
     }
 
     public void setFood(Food food) {
@@ -47,5 +49,9 @@ public class Fox {
     }
     public void setFoodName(String foodName) {
         this.food.foodName = foodName;
+    }
+
+    public boolean getisAlive() {
+        return isAlive;
     }
 }

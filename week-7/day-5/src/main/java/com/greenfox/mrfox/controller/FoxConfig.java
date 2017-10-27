@@ -12,7 +12,7 @@ public class FoxConfig {
 
     @Bean
     public Fox getFox() {
-        return new Fox("Mr Fox", new ArrayList<>(Arrays.asList(new Trick("poop"))),new Food("chips"),new                    Drink("sprite"));
+        return new Fox("Mr Fox", new ArrayList<>(Arrays.asList(new Trick("poop"))),new Food("chips"),new                    Drink("sprite"), true);
     }
 
 }

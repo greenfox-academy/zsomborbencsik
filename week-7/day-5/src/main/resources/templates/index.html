@@ -12,8 +12,8 @@
             <a th:href="@{/nutrition}">Nutrition Store</a>
         </li>
     </ul>
-    <img src="greenfox.png" alt="Mountain View"/>
-    <p th:text="'This is ' + ${name} + '. Currently living on ' + ${food} + ' and ' + ${drink} + '. He knows ' + ${tricks} + ' tricks.'"></p>
+    <img th:src="${alive} ? 'greenfox.png' : 'greenfoxdead.png'" alt="Mountain View"/>
+    <p th:text="${alive} ? 'This is ' + ${name} + '. Currently living on ' + ${food} + ' and ' + ${drink} + '. He knows ' + ${tricks} + ' tricks.' : 'Dont feed your fox poision'"></p>
     <h1>Known tricks</h1>
     <ul>
         <li>write HTML</li>

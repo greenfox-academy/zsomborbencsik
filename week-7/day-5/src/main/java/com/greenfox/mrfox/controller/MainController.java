@@ -14,6 +14,7 @@ public class MainController {
 
     @RequestMapping("/")
     public String homePage(Model model) {
+        model.addAttribute("alive", mrFox.isAlive);
         model.addAttribute("name", mrFox.name);
         model.addAttribute("food", mrFox.food.foodName);
         model.addAttribute("drink", mrFox.drink.drinkName);
@@ -30,6 +31,9 @@ public class MainController {
     @PostMapping("/nutritionAdd")
     public String submitNutrition(@ModelAttribute Food food) {
         this.mrFox.setFood(food);
+        if (food.foodName.equals("poision")) {
+            mrFox.isAlive = false;
+        }
         return "redirect:/";
     }
 }
