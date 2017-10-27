@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+    <title>FOX</title>
+</head>
+<body>
+
+    <form action="#" th:action="@{/nutritionAdd}" th:object="${food}" id="nutrilist" method="post">
+        <select name="foodName" >
+            <option value="steak">Steak</option>
+            <option value="candy">Candy</option>
+            <option value="banana">Banana</option>
+            <option value="pasta">Pasta</option>
+        </select>
+        <p><input type="submit" value="Save"/></p>
+    </form>
+</body>
+</html>
