@@ -19,6 +19,6 @@ public class MysqlApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-
+	todo.save(new Todo("Asdsdsds"));
 	}
 }
