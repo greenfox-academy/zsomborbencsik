@@ -1,9 +1,9 @@
 package com.greenfox.mysql.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.greenfox.mysql.Assignee;
+
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Todo {
@@ -14,10 +14,24 @@ public class Todo {
     boolean isUrgent;
     boolean isDone;
 
+    @OneToOne
+    public Assignee assignee;
+
+    public Assignee getAssignee() {
+        return assignee;
+    }
+
+    public void setAssignee(Assignee assignee) {
+        this.assignee = assignee;
+    }
+
+
+
     public Todo() {
         this.isDone = false;
         this.isUrgent = false;
     }
+
 
     public Todo(String title) {
         this.title = title;

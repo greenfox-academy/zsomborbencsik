@@ -1,6 +1,8 @@
 package com.greenfox.mysql.controller;
 
+import com.greenfox.mysql.Assignee;
 import com.greenfox.mysql.model.Todo;
+import com.greenfox.mysql.repository.AssigneeRepository;
 import com.greenfox.mysql.repository.ToDoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,6 +15,9 @@ public class ToDoController {
 
     @Autowired
     ToDoRepository repo;
+
+    @Autowired
+    AssigneeRepository assigneeRepository;
 
     @RequestMapping({"/","/list"})
     public String list(Model model) {
@@ -36,4 +41,25 @@ public class ToDoController {
         repo.delete(id);
         return "redirect:/todo/";
     }
+    @GetMapping("/{id}/edit")
+    public String edit(@PathVariable int id, Model model){
+        model.addAttribute("editedToDo", repo.findOne(id));
+        return "edit";
+    }
+    @GetMapping("/assignees")
+    public String listAssignees(Model model) {
+        model.addAttribute("listAssignees",assigneeRepository.findAll());
+        return "assignees";
+    }
+    @PostMapping("/updateAssignees")
+    public String updateAssignees(@ModelAttribute Assignee assignee){
+        assigneeRepository.save(assignee);
+        return "redirect:/todo/assignees/";
+    }
+    @RequestMapping("/assignees/add")
+    public String addAssignee(Model model) {
+        model.addAttribute("emptyAssignee", new Assignee());
+        return "addAssignees";
+    }
+
 }
