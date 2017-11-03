@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Reddit</title>
+</head>
+<body>
+<h1>Posts</h1>
+<p><a th:href="@{/posts/add}">Add new topic</a></p>
+<table>
+    <tr>
+        <th>Score</th>
+        <th>Actions</th>
+        <th>Content</th>
+        <th>Date created</th>
+    </tr>
+    <th:block th:each="post : ${listPosts}">
+        <tr>
+            <td th:text="${post.score}">...</td>
+            <td style="display:inline-block;"><a th:href="@{'/posts/upvote/' + ${post.id}}">+ </a></td>
+            <td style="display:inline-block;"><a th:href="@{'/posts/downvote/' + ${post.id}}"> -</a></td>
+            <td th:text="${post.content}">...</td>
+            <td th:text="${post.dateCreated}">...</td>
+        </tr>
+    </th:block>
+</table>
+<a th:href="@{'/posts/?pageId={id}'(id=${pageId - 1})}">Previous page</a><a th:href="@{'/posts/?pageId={id}'(id=${pageId + 1})}">Next page</a>
+</body>
+</html>
