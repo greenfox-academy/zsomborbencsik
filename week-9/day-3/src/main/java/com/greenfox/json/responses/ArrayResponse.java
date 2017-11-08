@@ -10,6 +10,10 @@ public class ArrayResponse {
             this.result = multiplyArray(numbers);
         }
     }
+
+    public ArrayResponse() {
+    }
+
     public int sumArray(int[] numbers) {
         int arraySum = 0;
         for (int i = 0; i < numbers.length; i++) {

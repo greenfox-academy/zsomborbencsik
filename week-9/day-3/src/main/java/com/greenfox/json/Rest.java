@@ -31,10 +31,10 @@ public class Rest {
         return new DoUntilResponse(until.getUntil(),what);
     }
     @PostMapping("/arrays")
-    public Object arrays(@RequestBody ArrayCalculator array) {
-        if (array.getWhat().equals("double")) {
-            return new ArrayResponse(array.getWhat(),array.getNumbers()).doubleArrayElements(array.getNumbers());
-        } else if (array.getWhat().equals("") || array.getNumbers().length == 0) {
+    public Object arrays(@RequestBody(required = false) ArrayCalculator array) {
+        if (array.getWhat() != null && array.getWhat().equals("double")) {
+            return new ArrayResponse().doubleArrayElements(array.getNumbers());
+        } else if (array.getWhat() == null || array.getNumbers().length == 0) {
             return new ErrorMessage("Please provide what to do with the numbers!");
         }
         return new ArrayResponse(array.getWhat(),array.getNumbers());
