@@ -1,12 +1,8 @@
 package com.greenfox.json;
 
-import com.greenfox.json.responses.AppendAResponse;
-import com.greenfox.json.responses.DoublingResponse;
-import com.greenfox.json.responses.GreeterResponse;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.greenfox.json.responses.*;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class Rest {
@@ -29,5 +25,18 @@ public class Rest {
     @RequestMapping("/appenda/{appendable}")
     public Object appendA(@PathVariable String appendable) {
         return new AppendAResponse(appendable);
+    }
+    @PostMapping(value = "/dountil/{what}", produces = "application/json")
+    public  Object doUntil(@PathVariable String what, @RequestBody DoUntil until) {
+        return new DoUntilResponse(until.getUntil(),what);
+    }
+    @PostMapping("/arrays")
+    public Object arrays(@RequestBody ArrayCalculator array) {
+        if (array.getWhat().equals("double")) {
+            return new ArrayResponse(array.getWhat(),array.getNumbers()).doubleArrayElements(array.getNumbers());
+        } else if (array.getWhat().equals("") || array.getNumbers().length == 0) {
+            return new ErrorMessage("Please provide what to do with the numbers!");
+        }
+        return new ArrayResponse(array.getWhat(),array.getNumbers());
     }
 }
