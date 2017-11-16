@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ChatApp</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>Peer to peer chat program</h1>
+
+<p>Your username: </p>
+<table>
+    <th:block th:each="user : ${listUser}">
+        <tr>
+            <td th:text="${user.getName()}">...</td>
+        </tr>
+    </th:block>
+</table>
+
+</body>
+</html>

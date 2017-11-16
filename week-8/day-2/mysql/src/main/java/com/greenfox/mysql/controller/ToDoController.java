@@ -1,6 +1,7 @@
 package com.greenfox.mysql.controller;
 
 import com.greenfox.mysql.Assignee;
+import com.greenfox.mysql.Services.ToDoService;
 import com.greenfox.mysql.model.Todo;
 import com.greenfox.mysql.repository.AssigneeRepository;
 import com.greenfox.mysql.repository.ToDoRepository;
@@ -12,6 +13,9 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/todo")
 public class ToDoController {
+
+    @Autowired
+    ToDoService toDoService;
 
     @Autowired
     ToDoRepository repo;
@@ -44,6 +48,7 @@ public class ToDoController {
     @GetMapping("/{id}/edit")
     public String edit(@PathVariable int id, Model model){
         model.addAttribute("editedToDo", repo.findOne(id));
+        model.addAttribute("listAssigneeRepo", assigneeRepository.findAll());
         return "edit";
     }
     @GetMapping("/assignees")

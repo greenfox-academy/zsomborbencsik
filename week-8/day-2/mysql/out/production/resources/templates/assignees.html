@@ -11,11 +11,12 @@
         <th>Name</th>
         <th>Email</th>
     </tr>
-    <th:block th:each="todo : ${listAssignees}">
+    <th:block th:each="assignee : ${listAssignees}">
         <tr>
-            <td th:text="${todo.id}">...</td>
-            <td th:text="${todo.name}">...</td>
-            <td th:text="${todo.email}">...</td>
+            <td th:text="${assignee.id}">...</td>
+            <td th:text="${assignee.name}">...</td>
+            <td th:text="${assignee.email}">...</td>
+
         </tr>
     </th:block>
 </table>

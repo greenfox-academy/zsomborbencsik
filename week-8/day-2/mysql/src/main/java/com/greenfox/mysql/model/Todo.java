@@ -32,6 +32,13 @@ public class Todo {
         this.isUrgent = false;
     }
 
+    public boolean hasAssignedAssignee() {
+        if (this.getAssignee() != null) {
+            return true;
+        }
+        return false;
+    }
+
 
     public Todo(String title) {
         this.title = title;

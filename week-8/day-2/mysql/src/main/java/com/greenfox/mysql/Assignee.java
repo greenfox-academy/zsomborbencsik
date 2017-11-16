@@ -1,5 +1,7 @@
 package com.greenfox.mysql;
 
+import com.greenfox.mysql.model.Todo;
+
 import javax.persistence.*;
 
 @Entity
